@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>B&amp;B Maaltebrug on B&amp;B maaltebrug</title>
+    <link>https://localhost/</link>
+    <description>Recent content in B&amp;B Maaltebrug on B&amp;B maaltebrug</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://localhost/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About</title>
+      <link>https://localhost/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://localhost/about/</guid>
+      <description>Illustration from Victor Hugo et son temps (1881) The Hunchback of Notre-Dame (French: Notre-Dame de Paris) is a French Romantic/Gothic novel by Victor Hugo, published in 1831. The original French title refers to Notre Dame Cathedral, on which the story is centered. English translator Frederic Shoberl named the novel The Hunchback of Notre Dame in 1833 because at the time, Gothic novels were more popular than Romance novels in England.</description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>https://localhost/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://localhost/contact/</guid>
+      <description>Railway Gent Sint Pieters: 1,5 km. (on foot: 15 min, tram: 5 min). The tram drives every 7 minutes and stops at the other side of the road.
+Exit E40: 1,5 km
+Historical centre of Ghent: 4 km. (tram: 15 min, bike: 15 min). The tram drives every 7 minutes and halts at the other side of the road.
+Flanders Expo: 1,5 km
+UZ Gent: 2 km</description>
+    </item>
+    
+    <item>
+      <title>Rooms</title>
+      <link>https://localhost/rooms/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://localhost/rooms/</guid>
+      <description>3 rooms with private bathroom. Coming soon&amp;hellip;</description>
+    </item>
+    
+  </channel>
+</rss>
