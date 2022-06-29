@@ -2,99 +2,99 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://localhost/</loc>
+    <loc>https://petravanenis.github.io/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="nl"
-                href="https://localhost/nl/"
+                href="https://petravanenis.github.io/nl/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://localhost/fr/"
+                href="https://petravanenis.github.io/fr/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://localhost/"
+                href="https://petravanenis.github.io/"
                 />
   </url><url>
-    <loc>https://localhost/categories/</loc>
+    <loc>https://petravanenis.github.io/categories/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="nl"
-                href="https://localhost/nl/categories/"
+                href="https://petravanenis.github.io/nl/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://localhost/fr/categories/"
+                href="https://petravanenis.github.io/fr/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://localhost/categories/"
+                href="https://petravanenis.github.io/categories/"
                 />
   </url><url>
-    <loc>https://localhost/contact/</loc>
+    <loc>https://petravanenis.github.io/contact/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="nl"
-                href="https://localhost/nl/contact/"
+                href="https://petravanenis.github.io/nl/contact/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://localhost/fr/contact/"
+                href="https://petravanenis.github.io/fr/contact/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://localhost/contact/"
+                href="https://petravanenis.github.io/contact/"
                 />
   </url><url>
-    <loc>https://localhost/rooms/</loc>
+    <loc>https://petravanenis.github.io/rooms/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="nl"
-                href="https://localhost/nl/rooms/"
+                href="https://petravanenis.github.io/nl/rooms/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://localhost/fr/rooms/"
+                href="https://petravanenis.github.io/fr/rooms/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://localhost/rooms/"
+                href="https://petravanenis.github.io/rooms/"
                 />
   </url><url>
-    <loc>https://localhost/tags/</loc>
+    <loc>https://petravanenis.github.io/tags/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="nl"
-                href="https://localhost/nl/tags/"
+                href="https://petravanenis.github.io/nl/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://localhost/fr/tags/"
+                href="https://petravanenis.github.io/fr/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://localhost/tags/"
+                href="https://petravanenis.github.io/tags/"
                 />
   </url>
 </urlset>
