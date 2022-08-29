@@ -2,100 +2,123 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://www.maaltebrug.be/fr/rooms/</loc>
-    <lastmod>2017-03-02T12:00:00-05:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
+    <loc>https://petravanenis.github.io/fr/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://www.maaltebrug.be/rooms/"
+                href="https://petravanenis.github.io/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="nl"
-                href="https://www.maaltebrug.be/nl/rooms/"
+                href="https://petravanenis.github.io/nl/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://www.maaltebrug.be/fr/rooms/"
+                href="https://petravanenis.github.io/fr/"
                 />
   </url><url>
-    <loc>https://www.maaltebrug.be/fr/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
+    <loc>https://petravanenis.github.io/fr/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://www.maaltebrug.be/"
+                href="https://petravanenis.github.io/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="nl"
-                href="https://www.maaltebrug.be/nl/"
+                href="https://petravanenis.github.io/nl/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://www.maaltebrug.be/fr/"
+                href="https://petravanenis.github.io/fr/categories/"
                 />
   </url><url>
-    <loc>https://www.maaltebrug.be/fr/categories/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
+    <loc>https://petravanenis.github.io/fr/rooms/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://www.maaltebrug.be/categories/"
+                href="https://petravanenis.github.io/rooms/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="nl"
-                href="https://www.maaltebrug.be/nl/categories/"
+                href="https://petravanenis.github.io/nl/rooms/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://www.maaltebrug.be/fr/categories/"
+                href="https://petravanenis.github.io/fr/rooms/"
                 />
   </url><url>
-    <loc>https://www.maaltebrug.be/fr/contact/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
+    <loc>https://petravanenis.github.io/fr/terms-conditions/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://www.maaltebrug.be/contact/"
+                href="https://petravanenis.github.io/terms-conditions/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="nl"
-                href="https://www.maaltebrug.be/nl/contact/"
+                href="https://petravanenis.github.io/nl/terms-conditions/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://www.maaltebrug.be/fr/contact/"
+                href="https://petravanenis.github.io/fr/terms-conditions/"
                 />
   </url><url>
-    <loc>https://www.maaltebrug.be/fr/tags/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
+    <loc>https://petravanenis.github.io/fr/contact/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://www.maaltebrug.be/tags/"
+                href="https://petravanenis.github.io/contact/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="nl"
-                href="https://www.maaltebrug.be/nl/tags/"
+                href="https://petravanenis.github.io/nl/contact/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://www.maaltebrug.be/fr/tags/"
+                href="https://petravanenis.github.io/fr/contact/"
+                />
+  </url><url>
+    <loc>https://petravanenis.github.io/fr/tags/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://petravanenis.github.io/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="nl"
+                href="https://petravanenis.github.io/nl/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://petravanenis.github.io/fr/tags/"
+                />
+  </url><url>
+    <loc>https://petravanenis.github.io/fr/privacy-policy/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://petravanenis.github.io/privacy-policy/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="nl"
+                href="https://petravanenis.github.io/nl/privacy-policy/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://petravanenis.github.io/fr/privacy-policy/"
                 />
   </url>
 </urlset>

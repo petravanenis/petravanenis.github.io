@@ -1,31 +1,47 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>B&amp;B Maaltebrug on B&amp;B maaltebrug</title>
-    <link>https://www.maaltebrug.be/</link>
-    <description>Recent content in B&amp;B Maaltebrug on B&amp;B maaltebrug</description>
+    <title>B&amp;B maaltebrug</title>
+    <link>https://petravanenis.github.io/</link>
+    <description>Recent content on B&amp;B maaltebrug</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://www.maaltebrug.be/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <copyright>B&amp;B Maaltebrug</copyright>
+    <lastBuildDate>Thu, 17 Oct 2019 11:22:16 +0600</lastBuildDate><atom:link href="https://petravanenis.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Contact</title>
-      <link>https://www.maaltebrug.be/contact/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <title>room Aimée</title>
+      <link>https://petravanenis.github.io/rooms/room-2/</link>
+      <pubDate>Thu, 17 Oct 2019 11:22:16 +0600</pubDate>
       
-      <guid>https://www.maaltebrug.be/contact/</guid>
-      <description>Railway Gent Sint Pieters: 1,5 km. (by foot: 15 min, tram: 5 min). The tram goes every 7 minutes and stops at the other side of the road.
-Exit highway E40: 1,5 km
-Historical centre of Ghent: 4 km. (tram: 15 min, bike: 15 min). The tram goes every 7 minutes and stops at the other side of the road.
-Flanders Expo: 1,5 km
-UZ Gent: 2 km</description>
+      <guid>https://petravanenis.github.io/rooms/room-2/</guid>
+      <description>Apple Watch is a line of smartwatches produced by Apple Inc. It incorporates fitness tracking and health-oriented capabilities with integration with iOS and other Apple products and services.</description>
     </item>
     
     <item>
-      <title>Rooms</title>
-      <link>https://www.maaltebrug.be/rooms/</link>
+      <title>room Joanna</title>
+      <link>https://petravanenis.github.io/rooms/room-3/</link>
+      <pubDate>Thu, 17 Oct 2019 11:22:16 +0600</pubDate>
+      
+      <guid>https://petravanenis.github.io/rooms/room-3/</guid>
+      <description>Apple Watch is a line of smartwatches produced by Apple Inc. It incorporates fitness tracking and health-oriented capabilities with integration with iOS and other Apple products and services.</description>
+    </item>
+    
+    <item>
+      <title>room Marie</title>
+      <link>https://petravanenis.github.io/rooms/room-1/</link>
+      <pubDate>Thu, 17 Oct 2019 11:22:16 +0600</pubDate>
+      
+      <guid>https://petravanenis.github.io/rooms/room-1/</guid>
+      <description>Apple Watch is a line of smartwatches produced by Apple Inc. It incorporates fitness tracking and health-oriented capabilities with integration with iOS and other Apple products and services.</description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>https://petravanenis.github.io/contact/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://www.maaltebrug.be/rooms/</guid>
-      <description>3 rooms with private bathroom. Coming soon&amp;hellip;</description>
+      <guid>https://petravanenis.github.io/contact/</guid>
+      <description>Railway Gent Sint Pieters: 1,5 km. (on foot: 15 min, tram: 5 min). The tram drives every 7 minutes and stops at the other side of the road.</description>
     </item>
     
   </channel>
