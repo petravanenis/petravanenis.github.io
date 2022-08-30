@@ -2,17 +2,39 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://petravanenis.github.io/</loc>
+    <loc>https://petravanenis.github.io/rooms/</loc>
     <lastmod>2019-10-17T11:22:16+06:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="nl"
+                href="https://petravanenis.github.io/nl/rooms/"
+                />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://petravanenis.github.io/fr/"
+                href="https://petravanenis.github.io/fr/rooms/"
                 />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://petravanenis.github.io/rooms/"
+                />
+  </url><url>
+    <loc>https://petravanenis.github.io/</loc>
+    <lastmod>2019-10-17T11:22:16+06:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="nl"
                 href="https://petravanenis.github.io/nl/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://petravanenis.github.io/fr/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -22,41 +44,31 @@
   </url><url>
     <loc>https://petravanenis.github.io/rooms/room-2/</loc>
     <lastmod>2019-10-17T11:22:16+06:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url><url>
     <loc>https://petravanenis.github.io/rooms/room-3/</loc>
     <lastmod>2019-10-17T11:22:16+06:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url><url>
     <loc>https://petravanenis.github.io/rooms/room-1/</loc>
     <lastmod>2019-10-17T11:22:16+06:00</lastmod>
-  </url><url>
-    <loc>https://petravanenis.github.io/rooms/</loc>
-    <lastmod>2019-10-17T11:22:16+06:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://petravanenis.github.io/fr/rooms/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="nl"
-                href="https://petravanenis.github.io/nl/rooms/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://petravanenis.github.io/rooms/"
-                />
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url><url>
     <loc>https://petravanenis.github.io/categories/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://petravanenis.github.io/fr/categories/"
-                />
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="nl"
                 href="https://petravanenis.github.io/nl/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://petravanenis.github.io/fr/categories/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -65,15 +77,17 @@
                 />
   </url><url>
     <loc>https://petravanenis.github.io/contact/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://petravanenis.github.io/fr/contact/"
-                />
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="nl"
                 href="https://petravanenis.github.io/nl/contact/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://petravanenis.github.io/fr/contact/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -82,15 +96,17 @@
                 />
   </url><url>
     <loc>https://petravanenis.github.io/tags/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://petravanenis.github.io/fr/tags/"
-                />
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="nl"
                 href="https://petravanenis.github.io/nl/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://petravanenis.github.io/fr/tags/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -99,15 +115,17 @@
                 />
   </url><url>
     <loc>https://petravanenis.github.io/privacy-policy/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://petravanenis.github.io/fr/privacy-policy/"
-                />
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="nl"
                 href="https://petravanenis.github.io/nl/privacy-policy/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://petravanenis.github.io/fr/privacy-policy/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -116,6 +134,8 @@
                 />
   </url><url>
     <loc>https://petravanenis.github.io/terms-conditions/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="nl"
