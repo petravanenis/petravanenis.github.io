@@ -97,6 +97,63 @@
                 href="https://petravanenis.github.io/fr/contact/"
                 />
   </url><url>
+    <loc>https://petravanenis.github.io/fr/rooms/roomaimee/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://petravanenis.github.io/rooms/roomaimee/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="nl"
+                href="https://petravanenis.github.io/nl/rooms/roomaimee/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://petravanenis.github.io/fr/rooms/roomaimee/"
+                />
+  </url><url>
+    <loc>https://petravanenis.github.io/fr/rooms/roomjoanna/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://petravanenis.github.io/rooms/roomjoanna/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="nl"
+                href="https://petravanenis.github.io/nl/rooms/roomjoanna/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://petravanenis.github.io/fr/rooms/roomjoanna/"
+                />
+  </url><url>
+    <loc>https://petravanenis.github.io/fr/rooms/roommarie/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://petravanenis.github.io/rooms/roommarie/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="nl"
+                href="https://petravanenis.github.io/nl/rooms/roommarie/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://petravanenis.github.io/fr/rooms/roommarie/"
+                />
+  </url><url>
     <loc>https://petravanenis.github.io/fr/tags/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>

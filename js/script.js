@@ -48,4 +48,13 @@ $(window).on('load', function () {
     ]
   });
 
+  $('.room-image-slider').slick({
+    autoplay: false,
+    infinite: true,
+    arrows: true,
+    dots: true,
+
+
+  });
+
 })(jQuery);

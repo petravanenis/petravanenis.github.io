@@ -5,33 +5,35 @@
     <link>https://petravanenis.github.io/rooms/</link>
     <description>Recent content on B&amp;B maaltebrug</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Thu, 17 Oct 2019 11:22:16 +0600</lastBuildDate><atom:link href="https://petravanenis.github.io/rooms/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://petravanenis.github.io/rooms/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>room Aimée</title>
-      <link>https://petravanenis.github.io/rooms/room-2/</link>
-      <pubDate>Thu, 17 Oct 2019 11:22:16 +0600</pubDate>
+      <link>https://petravanenis.github.io/rooms/roomaimee/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://petravanenis.github.io/rooms/room-2/</guid>
-      <description>Apple Watch is a line of smartwatches produced by Apple Inc. It incorporates fitness tracking and health-oriented capabilities with integration with iOS and other Apple products and services.</description>
+      <guid>https://petravanenis.github.io/rooms/roomaimee/</guid>
+      <description>Room Aimée is a spacious room with King size bed (180 cm) or 2 single beds, cozy sitting area, flatscreen TV and desk.
+The private bathroom has a walk-in rain shower, a bath, toilet and double sink.</description>
     </item>
     
     <item>
       <title>room Joanna</title>
-      <link>https://petravanenis.github.io/rooms/room-3/</link>
-      <pubDate>Thu, 17 Oct 2019 11:22:16 +0600</pubDate>
+      <link>https://petravanenis.github.io/rooms/roomjoanna/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://petravanenis.github.io/rooms/room-3/</guid>
-      <description>Apple Watch is a line of smartwatches produced by Apple Inc. It incorporates fitness tracking and health-oriented capabilities with integration with iOS and other Apple products and services.</description>
+      <guid>https://petravanenis.github.io/rooms/roomjoanna/</guid>
+      <description>Room Joanna is a very spacious room with King size bed (180 cm), flatscreen TV and desk. It has a spacious cozy sitting area.
+The private bathroom has a walk-in rain shower, toilet and sink.</description>
     </item>
     
     <item>
       <title>room Marie</title>
-      <link>https://petravanenis.github.io/rooms/room-1/</link>
-      <pubDate>Thu, 17 Oct 2019 11:22:16 +0600</pubDate>
+      <link>https://petravanenis.github.io/rooms/roommarie/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://petravanenis.github.io/rooms/room-1/</guid>
-      <description>Apple Watch is a line of smartwatches produced by Apple Inc. It incorporates fitness tracking and health-oriented capabilities with integration with iOS and other Apple products and services.</description>
+      <guid>https://petravanenis.github.io/rooms/roommarie/</guid>
+      <description>Room Marie is a spacious room with King size bed (180 cm), cozy sitting area and desk. Due to the large windows the room enjoys plenty of natural light.
+The private bathroom has a walk-in rain shower, toilet and sink.</description>
     </item>
     
   </channel>

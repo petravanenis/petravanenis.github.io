@@ -19,5 +19,35 @@ Flanders Expo: 1,5 km
 UZ Gent: 2 km</description>
     </item>
     
+    <item>
+      <title>room Aimée</title>
+      <link>https://petravanenis.github.io/fr/rooms/roomaimee/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://petravanenis.github.io/fr/rooms/roomaimee/</guid>
+      <description>La chambre Aimée est une chambre spacieuse avec un lit king size (180 cm) ou 2 lits simples, un coin confortable et un bureau.
+La salle de bains privée comprend une douche à effet pluie, une baignoire, une toilette et un double lavabo.</description>
+    </item>
+    
+    <item>
+      <title>room Joanna</title>
+      <link>https://petravanenis.github.io/fr/rooms/roomjoanna/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://petravanenis.github.io/fr/rooms/roomjoanna/</guid>
+      <description>La chambre Joanna est une chambre très spacieuse avec un lit king size (180 cm), télévision à écran plat et bureau. Elle a un coin salon spacieux et confortable.
+La salle de bains privée comprend une douche à effet pluie, une toilette et un lavabo.</description>
+    </item>
+    
+    <item>
+      <title>room Marie</title>
+      <link>https://petravanenis.github.io/fr/rooms/roommarie/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://petravanenis.github.io/fr/rooms/roommarie/</guid>
+      <description>La chambre Marie est une chambre spacieuse avec un lit king size (180 cm) ou 2 lits simples, un coin salon confortable et un bureau. Les grandes fenêtres laissent entrer beaucoup de lumière.
+La salle de bains privée comprend une douche à effet pluie, une toilette et un lavabo.</description>
+    </item>
+    
   </channel>
 </rss>

@@ -61,6 +61,45 @@ a:hover{
 .fw4{
     font-weight:400
 }
+.footer-text{
+    font-size:1rem;
+}
+
+.btn-important, .btn-important:link, .btn-important:visited {
+  text-decoration: none;
+  border-radius: 10px;
+  border-width: 2px;
+  border-style: solid;
+  font-size: 18px;
+  padding: 15px 40px;
+  display: inline-block;
+  margin: 0.5rem;
+
+}
+.btn-important:hover{
+  text-decoration: underline;
+
+}
+
+.button-light-color{
+  color: #FFF;
+  border-color: #FFF;
+}
+
+.button-light-color:hover{
+  text-decoration: underline;
+  color: #FFF;
+}
+
+.button-dark-color{
+  color: #545F51;
+  border-color: #545F51;
+}
+.button-dark-color:hover{
+  text-decoration: underline;
+  color: #545F51;
+
+}
 
 
 
