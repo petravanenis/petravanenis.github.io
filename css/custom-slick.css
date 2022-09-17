@@ -96,6 +96,7 @@
     /* fa-arrow-circle-left */
     font-size: 30px;
     content: "\f0a8";
+    /* background-image: url(../images/x-square.svg); */
 }
 
 .slick-next
@@ -110,6 +111,7 @@
     /* fa-arrow-circle-right */
     font-size: 30px;
     content: "\f0a9";
+     /* background-image: url(images/arrow-right-circle.svg); */
 }
 
 

@@ -2,6 +2,25 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://petravanenis.github.io/fr/photo-gallery/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://petravanenis.github.io/photo-gallery/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="nl"
+                href="https://petravanenis.github.io/nl/photo-gallery/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://petravanenis.github.io/fr/photo-gallery/"
+                />
+  </url><url>
     <loc>https://petravanenis.github.io/fr/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -38,63 +57,6 @@
                 rel="alternate"
                 hreflang="fr"
                 href="https://petravanenis.github.io/fr/categories/"
-                />
-  </url><url>
-    <loc>https://petravanenis.github.io/fr/rooms/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://petravanenis.github.io/rooms/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="nl"
-                href="https://petravanenis.github.io/nl/rooms/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://petravanenis.github.io/fr/rooms/"
-                />
-  </url><url>
-    <loc>https://petravanenis.github.io/fr/terms-conditions/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://petravanenis.github.io/terms-conditions/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="nl"
-                href="https://petravanenis.github.io/nl/terms-conditions/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://petravanenis.github.io/fr/terms-conditions/"
-                />
-  </url><url>
-    <loc>https://petravanenis.github.io/fr/contact/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://petravanenis.github.io/contact/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="nl"
-                href="https://petravanenis.github.io/nl/contact/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://petravanenis.github.io/fr/contact/"
                 />
   </url><url>
     <loc>https://petravanenis.github.io/fr/rooms/roomaimee/</loc>
@@ -152,6 +114,63 @@
                 rel="alternate"
                 hreflang="fr"
                 href="https://petravanenis.github.io/fr/rooms/roommarie/"
+                />
+  </url><url>
+    <loc>https://petravanenis.github.io/fr/rooms/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://petravanenis.github.io/rooms/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="nl"
+                href="https://petravanenis.github.io/nl/rooms/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://petravanenis.github.io/fr/rooms/"
+                />
+  </url><url>
+    <loc>https://petravanenis.github.io/fr/terms-conditions/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://petravanenis.github.io/terms-conditions/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="nl"
+                href="https://petravanenis.github.io/nl/terms-conditions/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://petravanenis.github.io/fr/terms-conditions/"
+                />
+  </url><url>
+    <loc>https://petravanenis.github.io/fr/contact/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://petravanenis.github.io/contact/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="nl"
+                href="https://petravanenis.github.io/nl/contact/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://petravanenis.github.io/fr/contact/"
                 />
   </url><url>
     <loc>https://petravanenis.github.io/fr/tags/</loc>

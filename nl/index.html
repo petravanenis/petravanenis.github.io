@@ -25,6 +25,10 @@
   
   <link rel="stylesheet" href="https://petravanenis.github.io/css/custom.css ">
   
+  <link rel="stylesheet" href="https://petravanenis.github.io/maaltebrug-gallery/justified_gallery/justifiedGallery.min.css ">
+  
+  <link rel="stylesheet" href="https://petravanenis.github.io/maaltebrug-gallery/swipebox/css/swipebox.min.css ">
+  
 
   <!-- Main Stylesheet -->
   
@@ -33,7 +37,7 @@
 
   <!--Favicon-->
   <link rel="shortcut icon" href="/images/iconmaaltebrug.png" type="image/x-icon" />
-  <link rel="icon" href="https://petravanenis.github.io/images/favicon.png " type="image/x-icon">
+  <link rel="icon" href="/images/iconmaaltebrug.png" type="image/x-icon" />
 
   
   <meta property="og:title" content="B&amp;B maaltebrug" />
@@ -44,6 +48,22 @@
 
   
   <script src="https://kit.fontawesome.com/b1e3e15f30.js" crossorigin="anonymous"></script>
+
+  
+  
+  <script src="https://petravanenis.github.io/plugins/jquery/jquery.js"></script>
+  
+  <script src="https://petravanenis.github.io/plugins/bootstrap/bootstrap.min.js"></script>
+  
+  <script src="https://petravanenis.github.io/plugins/slick/slick.min.js"></script>
+  
+  <script src="https://petravanenis.github.io/maaltebrug-gallery/justified_gallery/jquery.justifiedGallery.js"></script>
+  
+  <script src="https://petravanenis.github.io/maaltebrug-gallery/lazy/jquery.lazy.js"></script>
+  
+  <script src="https://petravanenis.github.io/maaltebrug-gallery/swipebox/css/swipebox.min.js"></script>
+  
+
 
 </head><body id="body"><header class="bg-green-gray white-70 whiteline">
 <div class=" d-flex justify-content-between items-center center text-decoration-none ">
@@ -91,6 +111,7 @@
 
 
 
+
   <header class="cover bg-center " style="background-image: url('https://petravanenis.github.io/images/outside1.jpg');">
   
     <div class="bg-black-20">
@@ -119,6 +140,12 @@
             </li>
             
             <li class="nav-item list f5 f4-ns fw4 d-inline-block pr3" >
+                <a class="nav-link  white-90" href="https://petravanenis.github.io/nl/photo-gallery/"
+                   title="PhotoGallery pagina">
+                Foto&#39;s</a>
+            </li>
+            
+            <li class="nav-item list f5 f4-ns fw4 d-inline-block pr3" >
                 <a class="nav-link  white-90" href="https://petravanenis.github.io/nl/contact/"
                    title="Contact pagina">
                 Contact</a>
@@ -141,12 +168,6 @@
       <h2 class="f-header-light f5 f3-l white-80 measure-wide-l mt3">
         COMING SOON
       </h2>
-      
-      
-      
-      <div class="py-3">
-      <a href="https://petravanenis.github.io/nl/rooms/" class="btn-important button-light-color" target="_blank">Boek nu</a>
-      </div>
       
       
     </div>
@@ -173,8 +194,14 @@
         
         <div class="mb-40 text-center text-md-left">
           <i class="d-inlin-block h2 mb-10 "></i>
-          <h4 class="font-weight-bold mb-2"></h4>
+          <h4 class="font-weight-bold mb-2">Ligging</h4>
           <p>Onze villa ligt aan de rand van het schitterende stadscentrum van Gent en is gemakkelijk bereikbaar met openbaar vervoer of met de wagen.</p>
+        </div>
+        
+        <div class="mb-40 text-center text-md-left">
+          <i class="d-inlin-block h2 mb-10 "></i>
+          <h4 class="font-weight-bold mb-2">Renovatie</h4>
+          <p>In 2022 hebben we een complete make-over gedaan van onze bovenverdieping voor het comfort van onze gasten.</p>
         </div>
         
       </div>
@@ -198,21 +225,28 @@
             <div class="text-center text-md-left">
               <i class="d-inlin-block h2 mb-10 "></i>
               <h4 class="font-weight-bold mb-2">Ruime kamers</h4>
-              <p>3 ruime 2 persoonskamers met kingsize bed of 2 aparte bedden, comfortabele fauteuils en bureau.</p>
+              <p>We bieden 3 ruime 2 persoonskamers met kingsize bed of 2 aparte bedden, comfortabele fauteuils en bureau. Kamer Joanna heeft een aparte ruime zithoek.</p>
             </div>
             
             <div class="text-center text-md-left">
               <i class="d-inlin-block h2 mb-10 "></i>
               <h4 class="font-weight-bold mb-2">Eigen badkamer</h4>
-              <p>Eigen badkamer met inloop regendouche, wastafel en toilet.</p>
+              <p>Iedere kamer heeft een eigen badkamer met inloop regendouche, wastafel en toilet. Kamer Aimée heeft daarnaast ook een bad.</p>
             </div>
             
             <div class="text-center text-md-left">
               <i class="d-inlin-block h2 mb-10 "></i>
               <h4 class="font-weight-bold mb-2">Alle comfort</h4>
-              <p>TV, wifi, airco, haardroger, koffie en thee op de kamer.</p>
+              <p>Er is TV, wifi, airco, haardroger, koffie en thee op iedere kamer.</p>
             </div>
             
+          
+          
+          <div class="col-md-12 align-self-center text-center text-md-right">
+            <div class="content">
+              <a href="https://petravanenis.github.io/nl/rooms" class="btn-nav"> Meer info</a>
+            </div>
+          </div>
           
         </div>
       </div>
@@ -232,7 +266,8 @@
       <div class="col-md-6 align-self-center text-center text-md-left">
         <div class="content">
           <h2 class="subheading font-weight-bold mb-10">Ontbijt</h2>
-          <p >We serveren u een vers en gevarieerd ontbijt met koffie/thee, vers geperst sinaasappelsap, vers fruit, een eitje, brood, koeken, granen, zoet en hartig beleg.</p>
+          <p >We serveren u een vers en gevarieerd ontbijt met koffie/thee, vers geperst sinaasappelsap, vers fruit, een eitje, brood, koeken, granen, zoet en hartig beleg.
+Het ontbijt wordt geserveerd in de ontbijtruimte tussen 8u en 10u, of vroeger indien gewenst.</p>
         </div>
       </div>
       <div class="col-md-6 text-center mb-5 mb-lg-0">
@@ -276,14 +311,6 @@
 
 
 
-
-
-
-<script src="https://petravanenis.github.io/plugins/jquery/jquery.js"></script>
-
-<script src="https://petravanenis.github.io/plugins/bootstrap/bootstrap.min.js"></script>
-
-<script src="https://petravanenis.github.io/plugins/slick/slick.min.js"></script>
 
 
 

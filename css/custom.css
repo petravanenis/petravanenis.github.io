@@ -88,7 +88,8 @@ a:hover{
 
 .button-light-color:hover{
   text-decoration: underline;
-  color: #FFF;
+  color: #545F51;
+  background-color:  #FFF;
 }
 
 .button-dark-color{
@@ -96,6 +97,21 @@ a:hover{
   border-color: #545F51;
 }
 .button-dark-color:hover{
+  text-decoration: underline;
+  color: #FFF;
+  background-color:  #545F51;
+
+}
+
+.btn-nav, .btn-nav:link, .btn-nav:visited {
+  text-decoration: underline;
+  font-size: 18px;
+  font-weight: bolder;
+  display: inline-block;
+  color: #545F51;
+
+}
+.btn-nav:hover{
   text-decoration: underline;
   color: #545F51;
 

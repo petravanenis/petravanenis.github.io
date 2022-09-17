@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-us"><head>
   <meta charset="utf-8">
-  <title>room Marie</title>
+  <title>chambre Marie</title>
 
   <!-- mobile responsive meta -->
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -25,6 +25,10 @@
   
   <link rel="stylesheet" href="https://petravanenis.github.io/css/custom.css ">
   
+  <link rel="stylesheet" href="https://petravanenis.github.io/maaltebrug-gallery/justified_gallery/justifiedGallery.min.css ">
+  
+  <link rel="stylesheet" href="https://petravanenis.github.io/maaltebrug-gallery/swipebox/css/swipebox.min.css ">
+  
 
   <!-- Main Stylesheet -->
   
@@ -33,20 +37,36 @@
 
   <!--Favicon-->
   <link rel="shortcut icon" href="/images/iconmaaltebrug.png" type="image/x-icon" />
-  <link rel="icon" href="https://petravanenis.github.io/images/favicon.png " type="image/x-icon">
+  <link rel="icon" href="/images/iconmaaltebrug.png" type="image/x-icon" />
 
   
-  <meta property="og:title" content="room Marie" />
+  <meta property="og:title" content="chambre Marie" />
 <meta property="og:description" content="La chambre Marie est une chambre spacieuse avec un lit king size (180 cm) ou 2 lits simples, un coin salon confortable et un bureau. Les grandes fenêtres laissent entrer beaucoup de lumière.
 La salle de bains privée comprend une douche à effet pluie, une toilette et un lavabo." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://petravanenis.github.io/fr/rooms/roommarie/" /><meta property="og:image" content="https://petravanenis.github.io/images/room1.jpg" /><meta property="og:image" content="https://petravanenis.github.io/images/ontbijt1.jpg" /><meta property="og:image" content="https://petravanenis.github.io/images/ontbijt2.jpg" /><meta property="article:section" content="rooms" />
+<meta property="og:url" content="https://petravanenis.github.io/fr/rooms/roommarie/" /><meta property="article:section" content="rooms" />
 
 
 
 
   
   <script src="https://kit.fontawesome.com/b1e3e15f30.js" crossorigin="anonymous"></script>
+
+  
+  
+  <script src="https://petravanenis.github.io/plugins/jquery/jquery.js"></script>
+  
+  <script src="https://petravanenis.github.io/plugins/bootstrap/bootstrap.min.js"></script>
+  
+  <script src="https://petravanenis.github.io/plugins/slick/slick.min.js"></script>
+  
+  <script src="https://petravanenis.github.io/maaltebrug-gallery/justified_gallery/jquery.justifiedGallery.js"></script>
+  
+  <script src="https://petravanenis.github.io/maaltebrug-gallery/lazy/jquery.lazy.js"></script>
+  
+  <script src="https://petravanenis.github.io/maaltebrug-gallery/swipebox/css/swipebox.min.js"></script>
+  
+
 
 </head><body id="body">
 <header class="bg-green-gray white-70 whiteline">
@@ -121,6 +141,12 @@ La salle de bains privée comprend une douche à effet pluie, une toilette et un
             </li>
             
             <li class="nav-item list f5 f4-ns fw4 d-inline-block pr3" >
+                <a class="nav-link  white-90" href="https://petravanenis.github.io/fr/photo-gallery/"
+                   title="PhotoGallery page">
+                Photos</a>
+            </li>
+            
+            <li class="nav-item list f5 f4-ns fw4 d-inline-block pr3" >
                 <a class="nav-link  white-90" href="https://petravanenis.github.io/fr/contact/"
                    title="Contact page">
                 Contact</a>
@@ -142,28 +168,11 @@ La salle de bains privée comprend une douche à effet pluie, une toilette et un
 <section class="section">
   <div class="container">
     <div class="row">
-      <div class="col-md-5 mb-4 mb-md-0">
-        
-        
-        <div class="room-image-slider">
-          
-          <div data-image="https://petravanenis.github.io/images/room1.jpg">
-            <img class="img-fluid w-100" src="https://petravanenis.github.io/images/room1.jpg" alt="product-image">
-          </div>
-          
-          <div data-image="https://petravanenis.github.io/images/ontbijt1.jpg">
-            <img class="img-fluid w-100" src="https://petravanenis.github.io/images/ontbijt1.jpg" alt="product-image">
-          </div>
-          
-          <div data-image="https://petravanenis.github.io/images/ontbijt2.jpg">
-            <img class="img-fluid w-100" src="https://petravanenis.github.io/images/ontbijt2.jpg" alt="product-image">
-          </div>
-          
-        </div>
-      </div>
-      <div class="col-lg-6 col-md-7 offset-lg-1">
-        <h1 class="mb-2">room Marie</h1>
 
+
+      <div class="col-lg-6  ">
+        <h1 class="mb-2">chambre Marie</h1>
+            <p>A partir de <strong>120 €</strong> par nuit pour 2 personnes </p>
             <p><strong>Lit: </strong>lit king size (180 cm) ou 2 lits simples</p>
             <p><strong>Salle de bain: </strong>douche à effet pluie, toilette et lavabo</p>
             <p><strong>Surface: </strong>25 m2</p>
@@ -173,21 +182,611 @@ La salle de bains privée comprend une douche à effet pluie, une toilette et un
             <p><strong>Internet: </strong>TV à écran plat et WIFI</p>
         
 
-        <div class="content"><p>La chambre Marie est une chambre spacieuse avec un lit king size (180 cm) ou 2 lits simples, un coin salon confortable et un bureau.
-Les grandes fenêtres laissent entrer beaucoup de lumière.</p>
-<p>La salle de bains privée comprend une douche à effet pluie, une toilette et un lavabo.</p>
+        
+      </div>
+
+      <div class="col-lg-6  mb-4">
+        <div>
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  	
+	
+
+	
+	
+	
+		<script src="/maaltebrug-gallery/lazy/jquery.lazy.min.js"></script>
+	
+
+	<script src="/maaltebrug-gallery/swipebox/js/jquery.swipebox.js"></script>
+	<link rel="stylesheet" href="/maaltebrug-gallery/swipebox/css/swipebox.css">
+
+	<script src="/maaltebrug-gallery/justified_gallery/jquery.justifiedGallery.min.js"></script>
+	<link rel="stylesheet" href="/maaltebrug-gallery/justified_gallery/justifiedGallery.min.css"/>
+
+
+<style>
+	
+
+	
+</style>
+
+
+
+
+<div id="gallery-7be067c2e0b889c45a696754eb6e03d1-0-wrapper" class="gallery-wrapper">
+<div id="gallery-7be067c2e0b889c45a696754eb6e03d1-0" class="justified-gallery">
+	
+		
+		
+				
+			
+			
+			
+				
+			
+
+			
+			
+				
+					
+				
+			
+
+
+			
+			
+			
+				
+				
+				
+				
+				
+				
+				
+				
+			
+
+			
+			
+
+
+			<div>
+				
+				
+					
+				
+				<a href="/photo-gallery/roommarie/IMG_5516.jpeg" 
+					class="galleryImg"
+					
+						
+
+						
+
+						
+					
+					>
+					<img			
+						width="200" height="150"
+
+						
+							
+							style="filter: blur(25px);"
+							
+								src="data:image/jpeg;base64,/9j/2wCEAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4&#43;JS5ESUM8SDc9PjsBCgsLDg0OHBAQHDsoIig7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O//AABEIABgAIAMBIgACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5&#43;gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4&#43;Tl5ufo6ery8/T19vf4&#43;fr/2gAMAwEAAhEDEQA/ANmDTtV&#43;0R2gjjkZ7cTg5GNpOOvHNc/4mv5tFs4riW3jIn&#43;5g8fj6V0kHjDSreDS4TeRG&#43;Nt9mIBJIzs2k46ZK/rXJeO9Ssr3TF0xI5nvGKyoFTICZIIODweOmKz5veUQuYa6213cGIGJhu2hoySD&#43;YFNvfNSMsiBiO1EVlY6bLBIDgLhiuScnGT&#43;tV59eRzi5sfLbHBjl4/LFNxl2K5om34ct9JW8eWdJZpTyqlto4PBz9RWjLaWD2otbSJbKcENFLvLYPPysT2OetYmi/8fS/7v/sxrWk/1w/3RQlbVbmis1ZnH69fXlrc&#43;RNAIZlJDgjPPtWMjzXD7jk/hW74/wD&#43;Rin&#43;v9BWRY9quVSUldmSpxTsj//Z"
+							
+							class="lazy"
+							data-src="/photo-gallery/roommarie/IMG_5516_hu1ba4a4861d3e0156da44bd62fa1c111b_2253239_300x150_fit_q85_lanczos.jpeg"
+						
+
+						
+							
+						
+					>
+				</a>
+			</div>
+		
+	
+		
+		
+				
+			
+			
+			
+				
+			
+
+			
+			
+				
+					
+				
+			
+
+
+			
+			
+			
+				
+				
+				
+				
+				
+				
+				
+				
+			
+
+			
+			
+
+
+			<div>
+				
+				
+					
+				
+				<a href="/photo-gallery/roommarie/IMG_5522.jpeg" 
+					class="galleryImg"
+					
+						
+
+						
+
+						
+					
+					>
+					<img			
+						width="113" height="150"
+
+						
+							
+							style="filter: blur(25px);"
+							
+								src="data:image/jpeg;base64,/9j/2wCEAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4&#43;JS5ESUM8SDc9PjsBCgsLDg0OHBAQHDsoIig7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O//AABEIACAAGAMBIgACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5&#43;gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4&#43;Tl5ufo6ery8/T19vf4&#43;fr/2gAMAwEAAhEDEQA/AOfTTLmPT/t0CloxtDNGwJUk4GfxIqzcx6np9r513AQmQu5kzyenT6GtnSYSfD2rW4OCsbPjuCpz/wCyio2uGvrF4Ji4CSRvkjI&#43;&#43;B/U1k5O6QFOfSNXWWO3eyaOWUkIjKATgZPWj/hGtd/59R/30n&#43;NdLa6gsuqxXt0rlLdJM&#43;aPvMVxWl/wkunf88U/wC&#43;f/r0o1Lq4aHm/iHW77Qr670&#43;xjDPM0kbyNzlckY/I/rWfZad4q1gb3mmSDH9/YParWtXdtcXbpBJ9ocsTJct/Ee&#43;0dhTLfWr/TTtgu5ljHRC2R&#43;R4q2pPY0jyrcj1DVr9rVxYxz21yjjfM8vJHtwO&#43;Ky/wC1fFX/AEEp/wDv6K6LxLfZ0jTRIsInuUaaQqgBIJ&#43;X9K5jzB6j862pUIqGphObUrI//9k="
+							
+							class="lazy"
+							data-src="/photo-gallery/roommarie/IMG_5522_hu368c03600ae2f644b745e7d90d013abe_2931201_300x150_fit_q85_lanczos.jpeg"
+						
+
+						
+							
+						
+					>
+				</a>
+			</div>
+		
+	
+		
+		
+				
+			
+			
+			
+				
+			
+
+			
+			
+				
+					
+				
+			
+
+
+			
+			
+			
+				
+				
+				
+				
+				
+				
+				
+				
+			
+
+			
+			
+
+
+			<div>
+				
+				
+					
+				
+				<a href="/photo-gallery/roommarie/IMG_5525.jpeg" 
+					class="galleryImg"
+					
+						
+
+						
+
+						
+					
+					>
+					<img			
+						width="113" height="150"
+
+						
+							
+							style="filter: blur(25px);"
+							
+								src="data:image/jpeg;base64,/9j/2wCEAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4&#43;JS5ESUM8SDc9PjsBCgsLDg0OHBAQHDsoIig7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O//AABEIACAAGAMBIgACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5&#43;gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4&#43;Tl5ufo6ery8/T19vf4&#43;fr/2gAMAwEAAhEDEQA/AMKzZZpDGfNUjuqbh/OnajHJCFjIPzjI3KV/nXSeA2jTxNK8cQXcpO0jBHBp/wASpFk1mzfd/wAsSCM9Oa5&#43;RWuVfU5nTNKuLi5WzgjDzOcKoOMn8a3/APhA/EX/AED/APyKn/xVT&#43;G4lHiqMNkASAcHH8JP9K9MzB/fl/7&#43;t/jVQppoHoeE3HiqLR7jZHO6OVwwiiBYjPdiRjvV608P22rWcMttDLZCYb8lyzDPIOT/APXrHjt7Ztbh&#43;0pG6SlQVcAg8&#43;9dRJrQx9m0tASmF83Hyrj&#43;6O/8vrRuNaD9CMOh63Il1fPctFJnfIRuPykdeneut/4SnTv&#43;ev8A4&#43;n/AMVXndx4c1KRpLpJXndwWfLEEk1R/sDV/wDnzb/vs/41cW4rQUved2f/2Q=="
+							
+							class="lazy"
+							data-src="/photo-gallery/roommarie/IMG_5525_hub26d864750db1ffca6410919f8776d4c_1824165_300x150_fit_q85_lanczos.jpeg"
+						
+
+						
+							
+						
+					>
+				</a>
+			</div>
+		
+	
+		
+		
+				
+			
+			
+			
+				
+			
+
+			
+			
+				
+					
+				
+			
+
+
+			
+			
+			
+				
+				
+				
+				
+				
+				
+				
+				
+			
+
+			
+			
+
+
+			<div>
+				
+				
+					
+				
+				<a href="/photo-gallery/roommarie/IMG_5536.jpeg" 
+					class="galleryImg"
+					
+						
+
+						
+
+						
+					
+					>
+					<img			
+						width="200" height="150"
+
+						
+							
+							style="filter: blur(25px);"
+							
+								src="data:image/jpeg;base64,/9j/2wCEAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4&#43;JS5ESUM8SDc9PjsBCgsLDg0OHBAQHDsoIig7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O//AABEIABgAIAMBIgACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5&#43;gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4&#43;Tl5ufo6ery8/T19vf4&#43;fr/2gAMAwEAAhEDEQA/AJ9QDW8LSJC8pH8KLk1Q0WKe61CQpZXKtKOd6gDiulnaCKKR2LAR/eO0/wCTSaDMsOp4kXbyTjI6EYrnUdbFGLb2tzBcJDdqVmLLnJHf6VS0vTldrlznH2h/4j611l9bvPrZkVEIG0hd2ScfSs60gXS4nhu45d24u0gQgDPbmt4cqTuYyjLmVthn25bn7NYzlipRUkZBkbumc5HFKlzHY&#43;JW3yKbV4gol6hW/wA96z7X/j4j/wB8U3UPun6UGiO9tLeNws1vMy7ujo24H/PtVvUNPglhNxcyuUj5K5GDVLw//wAgi0/65rWnqv8AyBp/oP5iiyLuf//Z"
+							
+							class="lazy"
+							data-src="/photo-gallery/roommarie/IMG_5536_hu325ad0d7a8cec06ec7c982578b8d6ee6_1729626_300x150_fit_q85_lanczos.jpeg"
+						
+
+						
+							
+						
+					>
+				</a>
+			</div>
+		
+	
+		
+		
+				
+			
+			
+			
+				
+			
+
+			
+			
+				
+					
+				
+			
+
+
+			
+			
+			
+				
+				
+				
+				
+				
+				
+				
+				
+			
+
+			
+			
+
+
+			<div>
+				
+				
+					
+				
+				<a href="/photo-gallery/roommarie/IMG_5562.jpeg" 
+					class="galleryImg"
+					
+						
+
+						
+
+						
+					
+					>
+					<img			
+						width="113" height="150"
+
+						
+							
+							style="filter: blur(25px);"
+							
+								src="data:image/jpeg;base64,/9j/2wCEAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4&#43;JS5ESUM8SDc9PjsBCgsLDg0OHBAQHDsoIig7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O//AABEIACAAGAMBIgACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5&#43;gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4&#43;Tl5ufo6ery8/T19vf4&#43;fr/2gAMAwEAAhEDEQA/AGa1pP8AY3iyWAjfugB&#43;Xnr/APqqbSAWb5YZW69EPatPxq2PHKD1tgP0NLoJCyIP7xcfp/8AWorRs16Ixw8r83qyXe&#43;OLSY8f7I/maZul/58pv8AvpP/AIqtdo/ak8sf3Kx5TpOe8YyfavH6JbESMYMLg5BIVjTtMhuoZIIy0bsCTIBkHOPf8azIWM3iFNUdpJJUP3yeAMY49sGuqTULS8CygI57N/8AXFdcnGdmuiOWlCUE79W2Wwsm0HaaXDep/Kmw3UKMCSwHpnIqz9vtv75/I0cse5rdn//Z"
+							
+							class="lazy"
+							data-src="/photo-gallery/roommarie/IMG_5562_hu9ca29d2636b80ac751ae019bef73139a_1695166_300x150_fit_q85_lanczos.jpeg"
+						
+
+						
+							
+						
+					>
+				</a>
+			</div>
+		
+	
+		
+		
+				
+			
+			
+			
+				
+			
+
+			
+			
+				
+					
+				
+			
+
+
+			
+			
+			
+				
+				
+				
+				
+				
+				
+				
+				
+			
+
+			
+			
+
+
+			<div>
+				
+				
+					
+				
+				<a href="/photo-gallery/roommarie/room_med.jpg" 
+					class="galleryImg"
+					
+						
+							title="                               "
+						
+
+						
+
+						
+					
+					>
+					<img			
+						width="267" height="150"
+
+						
+							
+							style="filter: blur(25px);"
+							
+								src="data:image/jpeg;base64,/9j/2wCEAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4&#43;JS5ESUM8SDc9PjsBCgsLDg0OHBAQHDsoIig7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O//AABEIABIAIAMBIgACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5&#43;gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4&#43;Tl5ufo6ery8/T19vf4&#43;fr/2gAMAwEAAhEDEQA/AO3l8WaHbve28l9DGZpVliJkGHBC9PxBrz/4j3Gna/e2D2V8siSOUeTO7aeT7dM1HovgC6uJFiuHO1Vz8xPy96m8SeG5PC0iyWe2WBkDSBR8yn1zQlFsWqH2dzZaRo9oJi7jYFzGmTwOpH4VOmraZeTLDBcgyt0RlKn9RXLp49vBcC2uY4bmAfLumXLAex60R6naNeRXENs4dHLeZzgZGD1OaynTprqUnJ9D2Q/Kz44&#43;XtXM&#43;IWLP8xJ&#43;XvXTP1f/drmNf8A9Z&#43;FbVfhFDc8quI4xq0&#43;EUYkOOK0YAN2MVQuf&#43;QtP/10NX4PvVxT&#43;I6F8J//2Q=="
+							
+							class="lazy"
+							data-src="/photo-gallery/roommarie/room_med_hu0fb889c8948e5463cbfa708bb936f826_261439_300x150_fit_q85_lanczos.jpg"
+						
+
+						
+							
+								alt="                               "
+							
+						
+					>
+				</a>
+			</div>
+		
+	
+		
+		
+				
+			
+			
+			
+				
+			
+
+			
+			
+
+
+			
+			
+			
+
+			
+			
+
+
+			<div>
+				
+				
+					
+				
+				<a href="/photo-gallery/roommarie/UNIT%201.png" 
+					class="galleryImg"
+					
+					>
+					<img			
+						width="146" height="150"
+
+						
+							
+							style="filter: blur(25px);"
+							
+								src="data:image/jpeg;base64,/9j/2wCEAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4&#43;JS5ESUM8SDc9PjsBCgsLDg0OHBAQHDsoIig7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O//AABEIACAAHwMBIgACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5&#43;gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4&#43;Tl5ufo6ery8/T19vf4&#43;fr/2gAMAwEAAhEDEQA/APVdWkjjS3Wa48mN7gKx80x5G0nGQR6Vm31zbi&#43;tY1vjBsUvu&#43;2tt4ePg5OCSM4BHQmte8nt4Jrc3EkaAykKXOP4D3qrd3VnNbCGO/tmdp49pVgTneMDAP4UCuhJJ3/sqG7S&#43;cldhYhkKsNwDE8dOtaaSLLteNw6MgZWU5BB7is4aslvcTwX0chkjfarxWkhV1Kg5yAfUjr2q5ZMHtbdlVlDQqQGUqRwOoPT6UDM/Xot6RSfvP3TMRtHcrjH61hahfIrRQTNFG8MkZCow&#43;fDrz156HpXZTKGiddu7eMYx7VRvbJrqBUSNIGWRXDqu77pB6YHpUuNwvYz9A8Y2niDUbiytbW4j&#43;z7gZHVdjFSAdpBOeo/Ougz8&#43;Pauc8O&#43;EIPD1/Ndw3U8nnhi6OONzEEkY6dBXR4Gd2e1UJH/9k="
+							
+							class="lazy"
+							data-src="/photo-gallery/roommarie/UNIT%201_hu5b93d8258fe23c3adf5cd1a0731a8cba_132348_300x150_fit_q85_lanczos_3.png"
+						
+
+						
+					>
+				</a>
+			</div>
+		
+	
+</div>
 </div>
 
-        
+<script>
+	if (!jQuery) {
+		alert("jquery is not loaded");
+	}
 
+	$( document ).ready(() => {
+		const gallery = $("#gallery-7be067c2e0b889c45a696754eb6e03d1-0");
+		
 
+		
+		let swipeboxInstance = null;
 
+		
+		
+		gallery.on('jg.complete', () => {
+			
+				
+				
+				$(() => {
+					$('.lazy').Lazy({
+						visibleOnly: true,
+						afterLoad: element => element.css({filter: "none", transition: "filter 1.0s ease-in-out"})
+					});
+				});
+			
+
+			swipeboxInstance = $('.galleryImg').swipebox(
+				jQuery.extend({},
+					{  }
+				)
+			);
+		});
+
+		
+		gallery.justifiedGallery({
+			rowHeight :  150 ,
+			margins :  5 ,
+			border : 0,
+			waitThumbnailsLoad : false,
+			lastRow : "justify",
+			captions : false,
+			
+			
+		});
+
+		
+		
+	});
+</script>
+
+        </div>
       </div>
+
     </div>
     
-    <div class="col-md-12 align-self-center text-center text-md-center">
+    <div class="col-md-12 align-self-center text-center text-md-left">
       <div class="content">
-        <a href="https://petravanenis.github.io/fr/rooms" class="btn-important button-dark-color"> Tous les Chambres</a>
+        <a href="https://petravanenis.github.io/fr/rooms" class="btn-nav"> Tous les Chambres</a>
       </div>
     </div>
     
@@ -224,14 +823,6 @@ Les grandes fenêtres laissent entrer beaucoup de lumière.</p>
 
 
 
-
-
-
-<script src="https://petravanenis.github.io/plugins/jquery/jquery.js"></script>
-
-<script src="https://petravanenis.github.io/plugins/bootstrap/bootstrap.min.js"></script>
-
-<script src="https://petravanenis.github.io/plugins/slick/slick.min.js"></script>
 
 
 

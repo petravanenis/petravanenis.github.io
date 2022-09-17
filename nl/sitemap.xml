@@ -2,6 +2,25 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://petravanenis.github.io/nl/photo-gallery/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://petravanenis.github.io/photo-gallery/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://petravanenis.github.io/fr/photo-gallery/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="nl"
+                href="https://petravanenis.github.io/nl/photo-gallery/"
+                />
+  </url><url>
     <loc>https://petravanenis.github.io/nl/terms-conditions/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -78,25 +97,6 @@
                 href="https://petravanenis.github.io/nl/contact/"
                 />
   </url><url>
-    <loc>https://petravanenis.github.io/nl/rooms/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://petravanenis.github.io/rooms/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://petravanenis.github.io/fr/rooms/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="nl"
-                href="https://petravanenis.github.io/nl/rooms/"
-                />
-  </url><url>
     <loc>https://petravanenis.github.io/nl/rooms/roomaimee/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -152,6 +152,25 @@
                 rel="alternate"
                 hreflang="nl"
                 href="https://petravanenis.github.io/nl/rooms/roommarie/"
+                />
+  </url><url>
+    <loc>https://petravanenis.github.io/nl/rooms/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://petravanenis.github.io/rooms/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://petravanenis.github.io/fr/rooms/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="nl"
+                href="https://petravanenis.github.io/nl/rooms/"
                 />
   </url><url>
     <loc>https://petravanenis.github.io/nl/tags/</loc>

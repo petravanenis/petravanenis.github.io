@@ -25,6 +25,10 @@
   
   <link rel="stylesheet" href="https://petravanenis.github.io/css/custom.css ">
   
+  <link rel="stylesheet" href="https://petravanenis.github.io/maaltebrug-gallery/justified_gallery/justifiedGallery.min.css ">
+  
+  <link rel="stylesheet" href="https://petravanenis.github.io/maaltebrug-gallery/swipebox/css/swipebox.min.css ">
+  
 
   <!-- Main Stylesheet -->
   
@@ -33,7 +37,7 @@
 
   <!--Favicon-->
   <link rel="shortcut icon" href="/images/iconmaaltebrug.png" type="image/x-icon" />
-  <link rel="icon" href="https://petravanenis.github.io/images/favicon.png " type="image/x-icon">
+  <link rel="icon" href="/images/iconmaaltebrug.png" type="image/x-icon" />
 
   
   <meta property="og:title" content="Chambres" />
@@ -44,6 +48,22 @@
 
   
   <script src="https://kit.fontawesome.com/b1e3e15f30.js" crossorigin="anonymous"></script>
+
+  
+  
+  <script src="https://petravanenis.github.io/plugins/jquery/jquery.js"></script>
+  
+  <script src="https://petravanenis.github.io/plugins/bootstrap/bootstrap.min.js"></script>
+  
+  <script src="https://petravanenis.github.io/plugins/slick/slick.min.js"></script>
+  
+  <script src="https://petravanenis.github.io/maaltebrug-gallery/justified_gallery/jquery.justifiedGallery.js"></script>
+  
+  <script src="https://petravanenis.github.io/maaltebrug-gallery/lazy/jquery.lazy.js"></script>
+  
+  <script src="https://petravanenis.github.io/maaltebrug-gallery/swipebox/css/swipebox.min.js"></script>
+  
+
 
 </head><body id="body">
 <header class="bg-green-gray white-70 whiteline">
@@ -119,6 +139,12 @@
             </li>
             
             <li class="nav-item list f5 f4-ns fw4 d-inline-block pr3" >
+                <a class="nav-link  white-90" href="https://petravanenis.github.io/fr/photo-gallery/"
+                   title="PhotoGallery page">
+                Photos</a>
+            </li>
+            
+            <li class="nav-item list f5 f4-ns fw4 d-inline-block pr3" >
                 <a class="nav-link  white-90" href="https://petravanenis.github.io/fr/contact/"
                    title="Contact page">
                 Contact</a>
@@ -147,8 +173,6 @@
   <div class="container">
     <p>3 chambres avec salle de bain privé. Ouverture bientôt&hellip;</p>
 
-
-    
     
 
   </div>
@@ -156,45 +180,25 @@
   <div class="container">
     
     <div class="row">
-      <div class="col-md-6 mb-4 mb-md-0">
-        
 
-        <div class="room-image-slider">
-          
-          <div data-image="https://petravanenis.github.io/images/room1.jpg">
-            <img class="img-fluid w-100" src="https://petravanenis.github.io/images/room1.jpg" alt="room-image">
-          </div>
-          
-          <div data-image="https://petravanenis.github.io/images/ontbijt1.jpg">
-            <img class="img-fluid w-100" src="https://petravanenis.github.io/images/ontbijt1.jpg" alt="room-image">
-          </div>
-          
-          <div data-image="https://petravanenis.github.io/images/ontbijt2.jpg">
-            <img class="img-fluid w-100" src="https://petravanenis.github.io/images/ontbijt2.jpg" alt="room-image">
-          </div>
-          
-        </div>
-      </div>
       <div class="col-md-6 align-self-center text-center text-md-left">
         <div class="content">
-          <h2 class="subheading font-weight-bold mb-10">room Marie</h2>
+          <h2 class="subheading font-weight-bold mb-10">chambre Marie</h2>
+          <p>A partir de <strong>120 €</strong> par nuit pour 2 personnes </p>
           <p ><p>La chambre Marie est une chambre spacieuse avec un lit king size (180 cm) ou 2 lits simples, un coin salon confortable et un bureau.
 Les grandes fenêtres laissent entrer beaucoup de lumière.</p>
 <p>La salle de bains privée comprend une douche à effet pluie, une toilette et un lavabo.</p>
 </p>
-          <div class="content">
-            <a href="https://petravanenis.github.io/fr/rooms/roommarie/" class="btn-important button-dark-color">Plus d&#39;info</a>
+          <div class="content text-md-right">
+            <a href="https://petravanenis.github.io/fr/rooms/roommarie/" class="btn-nav">Plus d&#39;info</a>
           </div>
         </div>
       </div>
 
-    </div>
-    
-    <div class="row">
       <div class="col-md-6 mb-4 mb-md-0">
         
-
         <div class="room-image-slider">
+          
           
           <div data-image="https://petravanenis.github.io/images/room1.jpg">
             <img class="img-fluid w-100" src="https://petravanenis.github.io/images/room1.jpg" alt="room-image">
@@ -208,27 +212,35 @@ Les grandes fenêtres laissent entrer beaucoup de lumière.</p>
             <img class="img-fluid w-100" src="https://petravanenis.github.io/images/ontbijt2.jpg" alt="room-image">
           </div>
           
+          
+          
+          
+          
+          
         </div>
       </div>
+
+    </div>
+    
+    <div class="row">
+
       <div class="col-md-6 align-self-center text-center text-md-left">
         <div class="content">
-          <h2 class="subheading font-weight-bold mb-10">room Aimée</h2>
+          <h2 class="subheading font-weight-bold mb-10">chambre Aimée</h2>
+          <p>A partir de <strong>130 €</strong> par nuit pour 2 personnes </p>
           <p ><p>La chambre Aimée est une chambre spacieuse avec un lit king size (180 cm) ou 2 lits simples, un coin confortable et un bureau.</p>
 <p>La salle de bains privée comprend une douche à effet pluie, une baignoire, une toilette et un double lavabo.</p>
 </p>
-          <div class="content">
-            <a href="https://petravanenis.github.io/fr/rooms/roomaimee/" class="btn-important button-dark-color">Plus d&#39;info</a>
+          <div class="content text-md-right">
+            <a href="https://petravanenis.github.io/fr/rooms/roomaimee/" class="btn-nav">Plus d&#39;info</a>
           </div>
         </div>
       </div>
 
-    </div>
-    
-    <div class="row">
       <div class="col-md-6 mb-4 mb-md-0">
         
-
         <div class="room-image-slider">
+          
           
           <div data-image="https://petravanenis.github.io/images/room1.jpg">
             <img class="img-fluid w-100" src="https://petravanenis.github.io/images/room1.jpg" alt="room-image">
@@ -242,18 +254,54 @@ Les grandes fenêtres laissent entrer beaucoup de lumière.</p>
             <img class="img-fluid w-100" src="https://petravanenis.github.io/images/ontbijt2.jpg" alt="room-image">
           </div>
           
+          
+          
+          
+          
+          
         </div>
       </div>
+
+    </div>
+    
+    <div class="row">
+
       <div class="col-md-6 align-self-center text-center text-md-left">
         <div class="content">
-          <h2 class="subheading font-weight-bold mb-10">room Joanna</h2>
+          <h2 class="subheading font-weight-bold mb-10">chambre Joanna</h2>
+          <p>A partir de <strong>130 €</strong> par nuit pour 2 personnes </p>
           <p ><p>La chambre Joanna est une chambre très spacieuse avec un lit king size (180 cm), télévision à écran plat et bureau.
 Elle a un coin salon spacieux et confortable.</p>
 <p>La salle de bains privée comprend une douche à effet pluie, une toilette et un lavabo.</p>
 </p>
-          <div class="content">
-            <a href="https://petravanenis.github.io/fr/rooms/roomjoanna/" class="btn-important button-dark-color">Plus d&#39;info</a>
+          <div class="content text-md-right">
+            <a href="https://petravanenis.github.io/fr/rooms/roomjoanna/" class="btn-nav">Plus d&#39;info</a>
           </div>
+        </div>
+      </div>
+
+      <div class="col-md-6 mb-4 mb-md-0">
+        
+        <div class="room-image-slider">
+          
+          
+          <div data-image="https://petravanenis.github.io/images/room1.jpg">
+            <img class="img-fluid w-100" src="https://petravanenis.github.io/images/room1.jpg" alt="room-image">
+          </div>
+          
+          <div data-image="https://petravanenis.github.io/images/ontbijt1.jpg">
+            <img class="img-fluid w-100" src="https://petravanenis.github.io/images/ontbijt1.jpg" alt="room-image">
+          </div>
+          
+          <div data-image="https://petravanenis.github.io/images/ontbijt2.jpg">
+            <img class="img-fluid w-100" src="https://petravanenis.github.io/images/ontbijt2.jpg" alt="room-image">
+          </div>
+          
+          
+          
+          
+          
+          
         </div>
       </div>
 
@@ -293,14 +341,6 @@ Elle a un coin salon spacieux et confortable.</p>
 
 
 
-
-
-
-<script src="https://petravanenis.github.io/plugins/jquery/jquery.js"></script>
-
-<script src="https://petravanenis.github.io/plugins/bootstrap/bootstrap.min.js"></script>
-
-<script src="https://petravanenis.github.io/plugins/slick/slick.min.js"></script>
 
 
 
