@@ -323,7 +323,7 @@
 					slider = $( '#swipebox-slider' );
 
 				//bars.addClass( 'visible-bars' );
-				$this.setTimeout();
+				//$this.setTimeout();
 
 				$( 'body' ).bind( 'touchstart', function( event ) {
 
@@ -498,14 +498,14 @@
 						event.preventDefault();
 						event.stopPropagation();
 						$this.getPrev();
-						$this.setTimeout();
+						//$this.setTimeout();
 					} );
 
 					$( '#swipebox-next' ).bind( action, function( event ) {
 						event.preventDefault();
 						event.stopPropagation();
 						$this.getNext();
-						$this.setTimeout();
+						//$this.setTimeout();
 					} );
 				}
 
@@ -799,9 +799,9 @@
 						}
 					} else {
 						$( '#swipebox-overlay' ).addClass( 'rightSpring' );
-						setTimeout( function() {
-							$( '#swipebox-overlay' ).removeClass( 'rightSpring' );
-						}, 500 );
+//						setTimeout( function() {
+//							$( '#swipebox-overlay' ).removeClass( 'rightSpring' );
+//						}, 500 );
 					}
 				}
 			},
@@ -823,9 +823,9 @@
 					}
 				} else {
 					$( '#swipebox-overlay' ).addClass( 'leftSpring' );
-					setTimeout( function() {
-						$( '#swipebox-overlay' ).removeClass( 'leftSpring' );
-					}, 500 );
+//					setTimeout( function() {
+//						$( '#swipebox-overlay' ).removeClass( 'leftSpring' );
+//					}, 500 );
 				}
 			},
 			/* jshint unused:false */
